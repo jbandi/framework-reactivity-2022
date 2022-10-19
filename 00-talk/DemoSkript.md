@@ -486,9 +486,7 @@ Show generated code in network tab!
     let state = {counter: {num: 0}};
 
     function increase() {
-        let counter = state.counter;
-        counter.num++;
-        state.counter = counter;
+        state.counter.num++;
     }
 </script>
 <h2>{state.counter.num}</h2>
