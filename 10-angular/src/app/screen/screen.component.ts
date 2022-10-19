@@ -10,7 +10,7 @@ import { interval, scan, startWith, tap } from 'rxjs';
   selector: 'app-screen',
   template: `
     <div>
-      <h3>Display of Screen</h3>
+      <h3>Angular Demo</h3>
       <app-counter></app-counter>
     </div>
   `,

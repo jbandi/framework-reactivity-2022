@@ -1,5 +1,5 @@
 <template>
-  <h3>Display of Screen</h3>
+  <h3>Vue Demo</h3>
   <Counter />
 </template>
 
