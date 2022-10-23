@@ -17,6 +17,9 @@ import { interval, scan, startWith, tap } from 'rxjs';
   styles: [],
 })
 export class ScreenComponent {
+  constructor() {
+    setInterval(() => {}, 1000);
+  }
   // DEMO:
   // state = { count: 0, name: 'Jonas' };
   // constructor() {
